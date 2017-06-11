@@ -8,7 +8,9 @@ $ ln -s .vim ~/
 
 # Install plugins
 $ vim +:PlugInstall
+```
 
-# Quit vim ;)
+And [quit vim](https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor) :wink:
+```
 :qa
 ```
