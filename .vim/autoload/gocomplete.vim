@@ -1,0 +1,1 @@
+/Users/mkfsn/.vim/plugged/gocode/vim/autoload/gocomplete.vim
