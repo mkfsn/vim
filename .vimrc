@@ -22,7 +22,7 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
 " NerdTree
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
@@ -39,6 +39,15 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'tpope/vim-surround'
 
-Plug 'kien/ctrlp.vim'
+" Plug 'kien/ctrlp.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+Plug 'junegunn/limelight.vim'
+
+Plug 'airblade/vim-gitgutter'
+
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end() 
