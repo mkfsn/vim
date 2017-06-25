@@ -8,9 +8,6 @@ syntax on
 set formatoptions+=tmM
 set textwidth=80
 
-" Let Backspace work in Mac
-set backspace=indent,eol,start
-
 " Let yanked text copy to clipboard
 set clipboard=unnamed
 

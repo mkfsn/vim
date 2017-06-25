@@ -1,10 +1,10 @@
-let mapleader=","
+let mapleader="\\"
 
 map <F2> :NERDTreeToggle<CR>
 map <F3> :TagbarToggle<CR>
 
-nmap <C-j> :tabprevious<CR>
-nmap <C-k> :tabnext<CR>
+nmap , :tabprevious<CR>
+nmap . :tabnext<CR>
 
 " TODO:
 " nmap <C-M-up> :wincmd k<CR> 
