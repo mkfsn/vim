@@ -34,6 +34,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " YouCompleteMe
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'ervandew/supertab'
 
 Plug 'majutsushi/tagbar'
 
