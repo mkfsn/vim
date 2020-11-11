@@ -18,3 +18,5 @@ filetype indent on
 
 " highlight all search matches
 set hlsearch
+
+set nofoldenable
